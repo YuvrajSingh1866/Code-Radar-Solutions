@@ -4,5 +4,5 @@
 int main() {
     char n;
     scanf("%s",n);
-    printf("You entered: %s",&n);
+    printf("You entered: %s\n",&n);
 }
