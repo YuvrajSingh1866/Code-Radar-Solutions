@@ -9,9 +9,9 @@ int main() {
 
     // Check if the number is not greater than 0 using the ! operator
     if (!(num > 0)) {
-        printf("The number is not greater than 0.\n");
+        printf("False");
     } else {
-        printf("The number is greater than 0.\n");
+        printf("True");
     }
 
     return 0;
