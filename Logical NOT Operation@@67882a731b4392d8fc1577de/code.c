@@ -4,12 +4,12 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(!a){
-        printf("True");
+        printf("False");
     }
     if(!b){
-        printf("True");
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
 }
