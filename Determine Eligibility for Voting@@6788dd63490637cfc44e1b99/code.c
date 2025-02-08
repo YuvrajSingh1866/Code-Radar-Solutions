@@ -6,9 +6,9 @@ int main() {
 
     // Check eligibility
     if (age >= 18) {
-        printf("eligible\n");
+        printf("Eligible\n");
      } else {
-        printf("Not eligible\n");
+        printf("Not Eligible\n");
     }
 
     return 0;
