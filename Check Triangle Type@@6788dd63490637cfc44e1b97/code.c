@@ -12,7 +12,7 @@ int main() {
         }
         // Check if it's an isosceles triangle
         else if (a == b || b == c || a == c) {
-            printf("Isoscele\n");
+            printf("Isosceles\n");
         }
         // Otherwise, it's a scalene triangle
         else {
