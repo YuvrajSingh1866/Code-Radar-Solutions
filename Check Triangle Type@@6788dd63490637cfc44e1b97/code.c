@@ -8,15 +8,15 @@ int main() {
     if (a + b > c && a + c > b && b + c > a) {
         // Check if it's an equilateral triangle
         if (a == b && b == c) {
-            printf("Equilateral Triangle\n");
+            printf("Equilateral\n");
         }
         // Check if it's an isosceles triangle
         else if (a == b || b == c || a == c) {
-            printf("Isosceles Triangle\n");
+            printf("Isoscele\n");
         }
         // Otherwise, it's a scalene triangle
         else {
-            printf("Scalene Triangle\n");
+            printf("Scalene\n");
         }
     } else {
         printf("The sides do not form a valid triangle.\n");
