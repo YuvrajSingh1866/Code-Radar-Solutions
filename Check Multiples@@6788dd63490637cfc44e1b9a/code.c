@@ -3,7 +3,8 @@
 int main(){
     int n,m;
     scanf("%d %d",&n,&m);
-    if(m*n==0){
+    int pro=m*n
+    if(pro%n==0){
         printf("Yes");
     }
     else{
