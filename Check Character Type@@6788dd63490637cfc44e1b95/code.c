@@ -20,7 +20,7 @@ int main() {
     }
     // Check if the character is a digit or anything else
     else{
-        printf("Digit");
+        printf("Special Character");
     } 
 
     return 0;
