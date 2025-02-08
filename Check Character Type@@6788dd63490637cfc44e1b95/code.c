@@ -22,7 +22,7 @@ int main() {
     else if (ch >= '0' && ch <= '9') {
         printf("Digit");
     } else {
-        printf("Special Charcter");
+        printf("Special Character");
     }
 
     return 0;
