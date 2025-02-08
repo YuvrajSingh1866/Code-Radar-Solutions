@@ -1,18 +1,29 @@
 #include <stdio.h>
+#include <ctype.h>  // To use the tolower() function
 
 int main() {
-    char vowel[6]={'a','e','i','o','u'};
-    char consonant[24]="a,b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z";
     char ch;
-    scanf("%c",&ch);
-    if(ch==vowel){
+    
+    // Read the character input
+    scanf("%c", &ch);
+    
+    // Convert to lowercase to handle both uppercase and lowercase characters
+    ch = tolower(ch);
+
+    // Check if the character is a vowel
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
         printf("Vowel");
     }
-    else if(ch==consonant){
-        printf("consonant");
+    // Check if the character is a consonant (alphabetical and not a vowel)
+    else if ((ch >= 'a' && ch <= 'z')) {
+        printf("Consonant");
     }
-    else{
-        printf("digit");
+    // Check if the character is a digit or anything else
+    else if (ch >= '0' && ch <= '9') {
+        printf("Digit");
+    } else {
+        printf("Invalid input");
     }
 
+    return 0;
 }
