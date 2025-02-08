@@ -6,10 +6,10 @@ int main() {
     if(isupper(ch)){
         printf("Uppercase");
     }
-    if(isdigit(ch)){
-        printf("Not an alphabet");
+    if(islower(ch)){
+        printf("Lowercase");
     }
     else{
-        printf("Lowercase");
+        printf("Not an alphabet");
     }
 }
