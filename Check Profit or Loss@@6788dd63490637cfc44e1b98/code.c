@@ -8,6 +8,6 @@ int main() {
         printf("Profit");
     }
     else{
-        pritnf("Loss");
+        printf("Loss");
     }
 }
