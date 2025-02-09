@@ -2,9 +2,6 @@
 
 int main() {
     int rows, i, j;
-
-    // Ask for the number of rows
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
     // Loop to create the mirrored right angle triangle pattern
