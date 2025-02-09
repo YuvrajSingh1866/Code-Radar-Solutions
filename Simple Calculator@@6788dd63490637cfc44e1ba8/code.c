@@ -3,11 +3,11 @@
 
 int main() {
     double num1, num2;
-    char operator;
+    char op;
 
     // Ask user for inpu
     scanf("%lf", &num1);
-    scanf(" %c", &operator);  // Space before %c to capture any leftover newline character
+    scanf(" %c", &op);  // Space before %c to capture any leftover newline character
     scanf("%lf", &num2);
 
     // Perform calculation based on operator
