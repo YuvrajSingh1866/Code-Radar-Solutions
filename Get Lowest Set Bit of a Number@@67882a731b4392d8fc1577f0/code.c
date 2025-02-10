@@ -12,7 +12,7 @@ int main() {
 
     // Get the lowest set bit and display the result
     int lowestSetBit = getLowestSetBit(number);
-    printf("%d\n", number, lowestSetBit);
+    printf("%d\n", lowestSetBit);
 
     return 0;
 }
