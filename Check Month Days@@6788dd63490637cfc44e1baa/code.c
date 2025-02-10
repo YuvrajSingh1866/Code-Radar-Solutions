@@ -20,7 +20,7 @@ int main() {
         case 1: // January
             printf("31");
         case 2: // February
-            printf("29 days\n");
+            printf("29\n");
             
         case 3: // March
             printf("31\n");
