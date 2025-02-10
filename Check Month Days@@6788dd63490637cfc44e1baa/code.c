@@ -19,6 +19,7 @@ int main() {
     switch (month) {
         case 1: // January
             printf("31");
+            break;
         case 2: // February
             printf("28\n");
             break;
