@@ -1,6 +1,8 @@
-int isprime(int n){
-    if(n<=1){
-        printf("Not Prime");
+#include<stdio.h>
+int prime(int n){
+    int count=0;
+    if (n<=1){
+        printf("Not prime");
     }
     else{
         for(int i=2;i<=n;i++){
@@ -10,14 +12,16 @@ int isprime(int n){
         }
     }
 }
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int count=0;
-    if(isprime(n)){
+    scanf("%d", &n);
+
+    if(prime(n)) {
         printf("Prime");
-    }
-    else{
+    } else {
         printf("Not Prime");
     }
+
+    return 0;
 }
