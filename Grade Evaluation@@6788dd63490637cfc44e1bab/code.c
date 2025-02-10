@@ -1,27 +1,24 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
-int main() {
-    float marks;
-    scanf("%f", &marks);
-
-    // Check the range and display the grade
-    if (marks >= 90 && marks <= 100) {
-        printf("Grade: A\n");
-    } else if (marks >= 80 && marks < 90) {
-        printf("Grade: B\n");
-    } else if (marks >= 70 && marks < 80) {
-        printf("Grade: C\n");
-    } else if (marks >= 60 && marks < 70) {
-        printf("Grade: D\n");
-    } else if (marks >= 50 && marks < 60) {
-        printf("Grade: E\n");
-    } else if (marks >= 0 && marks < 50) {
-        printf("Grade: F\n");
-    } else {
-        printf("Invalid marks\n");
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if(ch=='A'){
+        printf("Excellent");
     }
-
-    return 0;
+    else if(ch=='B'){
+        printf("Good");
+    }
+    else if(ch=='C'){
+        printf("Average");
+    }
+    else if(ch=='D'){
+        printf("Below Average");
+    } 
+    else if(ch=='F'){
+        printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
+    }
 }
