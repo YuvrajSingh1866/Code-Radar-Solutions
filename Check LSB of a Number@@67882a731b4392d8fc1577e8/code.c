@@ -10,7 +10,7 @@ int main()
 
     /* If (num & 1) evaluates to 1 */
     if(num & 1)
-        printf("set.");
+        printf("Set");
     else
         printf("Not Set");
 
