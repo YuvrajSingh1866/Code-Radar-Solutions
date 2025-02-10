@@ -21,7 +21,7 @@ int main() {
             printf("31");
         case 2: // February
             printf("28\n");
-            
+            break;
         case 3: // March
             printf("31\n");
             break;
