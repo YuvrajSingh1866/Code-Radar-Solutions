@@ -4,7 +4,6 @@ int main(){
     scanf("%d",&n);
     int count=0;
     for(int i=0;i<=n;i++){
-        count++;
+        printf("%d",i);
     }
-    printf("%d",count);
 }
