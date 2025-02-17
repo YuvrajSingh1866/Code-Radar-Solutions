@@ -2,6 +2,6 @@
 int main(){
     int num;n;
     scanf("%d %d",&num,&n);
-    int ans=num&(1<<31)!=0;
+    int ans=num & (1<<31)!=0;
     printf("%d",ans);
 }
