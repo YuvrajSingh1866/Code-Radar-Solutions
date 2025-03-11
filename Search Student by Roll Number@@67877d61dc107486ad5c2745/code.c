@@ -22,9 +22,9 @@ int main() {
 
     int found = 0;
     for (int i = 0; i < n; i++) {
-        if () {
+        if (students[i].rollNumber == searchRollNumber) {
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n", students[i].rollNumber, students[i].name, students[i].marks);
-            found = 1;students[i].rollNumber == searchRollNumber
+            found = 1;
             break;
         }
     }
