@@ -1,14 +1,14 @@
 #include<stdio.h>
 
 // Function to swap two integers
-void swap(int *a, int *b) {
+int swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
 // Function to sort the array in ascending order
-void result(int arr[], int n) {
+int result(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] > arr[j]) {
@@ -19,14 +19,14 @@ void result(int arr[], int n) {
 }
 
 // Function to take array input
-void askarray(int arr[], int n) {
+int askarray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 }
 
 // Function to print the array
-void printarray(int arr[], int n) {
+int printarray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);  // Added space for clarity
     }
