@@ -28,7 +28,7 @@ void print(int arr[], int n) {
     }
 }
 
-int main() {
+int main(arr,n) {
     int n;
     scanf("%d", &n);
     int arr[n];
