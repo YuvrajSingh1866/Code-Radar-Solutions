@@ -16,8 +16,10 @@ void selectionSort(char arr[], int n) {
         }
     }
 }
-void printArray(char i, int n){
-    for(char i=0;i<n;i++){
-        scanf("%c",i);
+void printArray(char arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%c", arr[i]); // Print each character in the array
     }
+    printf("\n");
 }
+
