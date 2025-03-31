@@ -1,46 +1,33 @@
 #include<stdio.h>
 
-// Function to swap two integers
-int swap(int *a, int *b) {
+void swap(int *a,int *b){
     int temp = *a;
-    *a = *b;
-    *b = temp;
+    *a=*b;
+    *b=temp;
 }
-
-// Function to sort the array in ascending order
-int result(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] > arr[j]) {
-                swap(&arr[i], &arr[j]);
-            }
+void sort(int arr[],int n){
+    for(int i=0;i<n;i++){
+        if(arr[i]>arr[i+1]){
+            swap(&arr[i],&arr[i+1]);
         }
     }
 }
-
-// Function to take array input
-int askarray(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+void ask(int arr[],int n){
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
 }
-
-// Function to print the array
-int printarray(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);  // Added space for clarity
+void print(int arr[],int n){
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
     }
-    printf("\n");  // Added newline after printing the array
 }
-
-int main() {
+int main(){
     int n;
-    scanf("%d", &n);
+    scanf("%d",&n);
     int arr[n];
-    askarray(arr, n);
-
-    result(arr, n);
-    printarray(arr, n);
-
-    return 0;
+    ask(arr,n);
+    sort(arr,n);
+    print(arr,n);
+    
 }
