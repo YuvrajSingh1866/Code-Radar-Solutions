@@ -16,25 +16,9 @@ void sort(int arr[], int n) {
     }
 }
 
-void ask(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-}
-
 void print(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
 }
 
-int main(arr,n) {
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-    ask(arr, n);
-    sort(arr, n);
-    print(arr, n);
-
-    return 0;
-}
