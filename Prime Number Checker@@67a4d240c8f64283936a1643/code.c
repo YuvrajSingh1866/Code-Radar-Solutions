@@ -15,9 +15,6 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<=n;i++){
-        scanf("%d\n",&i);
-    }
-    for(int i=0;i<=n;i++){
         if(isprime(i)){
             printf("%d\n",isprime(n));
         }
