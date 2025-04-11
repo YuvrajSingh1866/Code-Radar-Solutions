@@ -2,7 +2,9 @@
 int main(){
     char s[1000];
     scanf("%s",s);
-    for(char i='\0';i>=s;i--){
-        printf("%s",s);
+    int count=0;
+    while(s!='\0'){
+        count++;
+        s++:
     }
 }
